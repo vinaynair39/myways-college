@@ -20,5 +20,4 @@ export const PrivateRoute = ({
 }
 
 
-
 export default PrivateRoute;

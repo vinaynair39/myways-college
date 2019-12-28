@@ -1,0 +1,9 @@
+module.exports = {
+    LOGIN: 'lOGIN',
+    LOGOUT: 'LOGOUT',
+    ADD_FILTER: 'ADD_FILTER',
+    SET_START_DATE: 'SET_START_DATE',
+    SET_END_DATE: 'SET_END_DATE',
+    SORT_BY_LIKES: 'SORT_BY_LIKES',
+    SORT_BY_DATE: 'SORT_BY_DATE',
+ };
