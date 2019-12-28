@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+html {
+  font-size: 62.5%;
+  outline: none;
+}
+
+body {
+  color: #5a6270;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: $m-size;
+  line-height: 1.6;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+.is-active {
+  font-weight: bold;
+}
+
+a
+{
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:visited {
+  color:none;
+}
